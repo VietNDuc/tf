@@ -93,7 +93,6 @@ class VGG16(models.Model):
         self.model = model
 
     def call(self, x):
-
         x = self.model(x)
 
         return x
